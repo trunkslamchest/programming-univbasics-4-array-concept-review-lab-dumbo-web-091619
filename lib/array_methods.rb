@@ -5,7 +5,9 @@
   zig_zag = [500,4,1000,5,250]
 
 def find_element_index(array, value_to_find)
-  # Add your solution here
+  (array.length).times do |e|
+    puts e
+  end
 end
 
 def find_max_value(array)
