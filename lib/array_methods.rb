@@ -23,7 +23,7 @@ def find_min_value(array)
 end
 
 
-find_element_index(scale,2)
+# find_element_index(scale,2)
 # find_element_index(scale,4)
 # find_element_index(scale_2,5)
 # find_element_index(scale_2,6)
