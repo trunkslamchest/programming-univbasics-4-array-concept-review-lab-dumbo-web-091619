@@ -6,12 +6,13 @@
 
 def find_element_index(array, value_to_find)
   (array.length).times do |e|
-      if array[e] == value_to_find
-        puts e
-      return e
-    else
-      return nil
-    end
+    puts array[e]
+    #   if array[e] == value_to_find
+    #     puts e
+    #   return e
+    # else
+    #   return nil
+    # end
   end
 end
 
