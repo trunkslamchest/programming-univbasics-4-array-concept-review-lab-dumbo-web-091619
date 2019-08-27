@@ -7,12 +7,9 @@
 def find_element_index(array, value_to_find)
   (array.length).times do |e|
       if array[e] == value_to_find
-        # puts e
       return e
     end
   end
-  # puts "nil"
-  # puts nil
   return nil
 end
 
@@ -23,13 +20,3 @@ end
 def find_min_value(array)
   # Add your solution here
 end
-
-
-find_element_index(scale,2)
-find_element_index(scale,4)
-find_element_index(scale_2,5)
-find_element_index(scale_2,6)
-
-find_element_index(hill,500)
-find_element_index(valley,500)
-find_element_index(zig_zag,400)
