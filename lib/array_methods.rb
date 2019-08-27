@@ -26,7 +26,7 @@ def find_min_value(array)
 end
 
 find_max_value(scale)
-# find_max_value(scale_2)
+find_max_value(scale_2)
 # find_max_value(hill)
 # find_max_value(valley)
 # find_max_value(zig_zag)
