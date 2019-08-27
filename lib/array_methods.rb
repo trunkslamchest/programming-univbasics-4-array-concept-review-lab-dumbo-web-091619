@@ -16,20 +16,22 @@ end
 
 def find_max_value(array)
   sorted = array.sort
-  puts sorted[-1]
-  puts
   return sorted[-1]
 end
 
 def find_min_value(array)
   sorted = array.sort
-  puts sorted[0]
-  puts
   return sorted[0]
 end
 
-find_max_value(scale)
-find_max_value(scale_2)
-find_max_value(hill)
-find_max_value(valley)
-find_max_value(zig_zag)
+# find_max_value(scale)
+# find_max_value(scale_2)
+# find_max_value(hill)
+# find_max_value(valley)
+# find_max_value(zig_zag)
+
+# find_min_value(scale)
+# find_min_value(scale_2)
+# find_min_value(hill)
+# find_min_value(valley)
+# find_min_value(zig_zag)
