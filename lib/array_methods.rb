@@ -6,7 +6,7 @@
 
 def find_element_index(array, value_to_find)
   (array.length).times do |e|
-    puts array[e]
+    puts array[e] == value_to_find
     #   if array[e] == value_to_find
     #     puts e
     #   return e
