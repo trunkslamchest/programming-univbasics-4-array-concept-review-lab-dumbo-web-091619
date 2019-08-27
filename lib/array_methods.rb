@@ -17,6 +17,7 @@ end
 def find_max_value(array)
   sorted = array.sort
   puts sorted
+  puts
   return sorted
 end
 
